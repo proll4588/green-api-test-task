@@ -14,8 +14,11 @@
         "generate-react-cli": "^8.3.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-icons": "^4.8.0",
+        "react-number-formatter": "^1.0.17",
         "react-router-dom": "^6.11.1",
         "react-scripts": "5.0.1",
+        "recoil": "^0.7.7",
         "sass": "^1.62.1",
         "typescript": "^4.9.5",
         "web-vitals": "^2.1.4"

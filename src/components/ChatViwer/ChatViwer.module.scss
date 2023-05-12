@@ -1,0 +1,21 @@
+.ChatViwer {
+    & {
+        width: 100%;
+        height: calc(100% - 50px);
+
+        background-color: var(--color-bg);
+
+        overflow: auto;
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+    }
+    &__container {
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

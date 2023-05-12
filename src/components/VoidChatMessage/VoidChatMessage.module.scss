@@ -1,0 +1,15 @@
+.VoidChatMessage {
+    & {
+        display: inline-flex;
+        justify-content: center;
+    }
+    &__container {
+        padding: 10px;
+
+        background: var(--color-bg-2);
+
+        border-radius: var(--border-radius);
+
+        font-weight: bold;
+    }
+}

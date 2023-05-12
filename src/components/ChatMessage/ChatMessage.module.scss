@@ -1,0 +1,11 @@
+.ChatMessage {
+    & {
+        display: inline-flex;
+    }
+    &__container {
+        max-width: 400px;
+        padding: 6px;
+        background-color: var(--color-bg-2);
+        border-radius: var(--border-radius);
+    }
+}

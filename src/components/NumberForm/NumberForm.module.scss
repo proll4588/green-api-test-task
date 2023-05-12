@@ -1,0 +1,23 @@
+.NumberForm {
+    & {
+        background-color: var(--color-bg-1);
+        border-radius: var(--border-radius);
+    }
+    &__container {
+        padding: 20px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__title {
+        margin-bottom: 10px;
+    }
+    &__input {
+        &::-webkit-inner-spin-button,
+        &::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+    }
+}

@@ -1,3 +1,10 @@
+@import './var.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
@@ -5,9 +12,79 @@ body {
         'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    background-color: var(--color-bg);
+    color: var(--color-text);
+
+    box-sizing: border-box;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+}
+
+input {
+    height: 21px;
+
+    padding: 9px 12px;
+
+    background-color: var(--color-bg-3);
+
+    border: none;
+    border: 1px solid rgba(red, 0);
+    border-radius: var(--border-radius);
+    outline: none;
+
+    color: var(--color-text);
+    font-size: 15px;
+    font-weight: bold;
+
+    transition: border 0.2s;
+
+    &::placeholder {
+        color: var(--color-text-dark);
+    }
+
+    &:focus {
+        border: 1px solid var(--color-accent);
+    }
+}
+
+button {
+    padding: 9px 20px;
+
+    background-color: var(--color-bg-3);
+
+    border: none;
+    border-radius: var(--border-radius);
+
+    color: var(--color-text);
+    font-size: 15px;
+
+    transition: background 0.2s;
+
+    &:hover {
+        background-color: var(--color-accent);
+    }
+
+    cursor: pointer;
+}
+
+.react-number-formatter-input {
+    border: 1px solid rgba(red, 0) !important;
+
+    background-color: var(--color-bg-3) !important;
+
+    color: var(--color-text) !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+
+    &:focus {
+        border: 1px solid var(--color-accent) !important;
+    }
+}
+
+.react-number-formatter-dropbtn {
+    height: 35px;
 }
