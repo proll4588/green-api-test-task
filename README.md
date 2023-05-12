@@ -7,6 +7,9 @@
 
 ```bash
 git clone https://github.com/proll4588/green-api-test-task.git
+```
+
+```bash
 cd green-api-test-task
 ```
 
